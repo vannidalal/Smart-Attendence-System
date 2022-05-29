@@ -1,0 +1,32 @@
+.home-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-right: 5%;
+  background-image: url('../assets/images/facial-recognition-technology.jpg');
+  background-repeat: no-repeat;
+}
+
+
+.form {
+  padding: 5rem;
+  background-color: white;
+}
+
+.heading {
+  /* /* position: absolute;
+  right: 5%;
+  top: 10%; */
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+
+}
+
+.login-form {
+  display: flex;
+  justify-content: flex-end;
+  right: 0;
+  height: 40vh;
+}

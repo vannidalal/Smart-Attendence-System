@@ -1,0 +1,64 @@
+.admin-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+/* Top Section */
+
+.admin-page-container .top-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.admin-page-container .top-section .company-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+.admin-page-container .top-section .company-details .logo-container img {
+  height: 80px;
+  width: 80px;
+}
+
+.admin-page-container .top-section .company-details .details-container {
+  width: 80%;
+}
+
+/* Middle Section */
+
+.admin-page-container .middle-section .attendance-title-container {
+  width: 100%;
+  text-align: center;
+}
+
+.admin-page-container .middle-section .attendance-logs-container {
+  display: flex;
+  justify-content: center;
+}
+
+.admin-page-container .middle-section .attendance-logs-container .attendance-logs {
+  border: 2px solid forestgreen;
+}
+
+.admin-page-container .middle-section .attendance-logs-container .attendance-logs th {
+  border-bottom: 1px solid black;
+}
+
+.admin-page-container .middle-section .attendance-logs-container .attendance-logs td {
+  text-align: center;
+  padding: 5px;
+}
+
+/* Bottom Section */
+
+.admin-page-container .bottom-section {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 20px auto;
+}

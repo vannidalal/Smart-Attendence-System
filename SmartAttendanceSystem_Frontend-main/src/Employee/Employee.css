@@ -1,0 +1,27 @@
+.employee-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.employee-page-container .navbar-container {
+  width: 100%;
+}
+
+.employee-page-container .top-section,
+.employee-page-container .bottom-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  padding: 50px;
+}
+
+.employee-page-container .top-section .new-request-container {
+  width: 70%;
+}
+
+.employee-page-container .bottom-section .client-info-container {
+  width: 80%;
+}
